@@ -1,0 +1,13 @@
+Uuid: 24e3497855a44575a38302f540108e98
+ExtensionType: 2
+Name: API Workflow Manager
+RepoName: api-workflow-manager
+ScreenVersion: 1.0.1
+SerialVersion: 1
+MinPlatformVersion: 2
+ProOnly: False
+Author: omkaryepre
+ShortDescription: The extension provides centralized management and organization for API endpoints during security testing. It enables collection, categorization, and export of HTTP requests with workflow labels.
+EntryPoint: Api-Workflow-Manager.py
+BuildCommand: 
+SupportedProducts: Pro, Community

@@ -1,0 +1,71 @@
+<p>API & Workflow Manager is a Burp Suite extension that aims to centralize management and organization for API endpoints during security testing. Through this extension, security professionals can collect, categorize, and export HTTP requests with workflow labels, facilitating structured testing methodologies and comprehensive documentation through CSV and cURL exports.
+</p>
+
+<h2>Features</h2>
+
+<h3>Core Management</h3>
+<ul>
+<li>Centralized API Management &rarr; Collect and organize HTTP requests in a dedicated tab.</li>
+<li>Smart Filtering &rarr; Filters APIs based on HTTP methods such as GET, POST, PUT, DELETE, etc.</li>
+<li>Duplicate Control &rarr; Configurable duplicate detection is featured to maintain clean API inventories.</li>
+<li>Visual Workflow Creation &rarr; Add workflow markers to structure testing processes.</li>
+</ul>
+
+<h3>Quick Actions</h3>
+<ul>
+<li>Context Menu Integration &rarr; Direct access from Proxy/Repeater.</li>
+<li>Drag & Drop Reordering &rarr; Intuitive UI for organizing API sequences.</li>
+<li>Bulk Operations &rarr; Multi-select support for efficient management.</li>
+</ul>
+
+<h3>Export Capabilities</h3>
+<ul>
+<li>CSV Manual Sheets &rarr; Generates documentation for manual testing.</li>
+<li>cURL Commands &rarr; Converts requests to cURL format for external testing.</li>
+<li>Flexible Formats &rarr; Multiple export options with duplicate handling.</li>
+</ul>
+
+<h2>Usage</h2>
+
+<h3>API Management Tab</h3>
+<p>The API Management Tab allows you to manage your captured APIs efficiently with the following operations:</p>
+<ul>
+<li>View all collected APIs.</li>
+<li>Filter by HTTP method.</li>
+<li>Reorder or remove entries.</li>
+<li>Add new APIs or workflows manually.</li>
+</ul>
+
+<h3>Context Menu Integration</h3>
+<p>Right-click any request in Proxy, Repeater, or HTTP history, and choose either:</p>
+<ul>
+<li>Send APIs to Management Tab</li>
+<li>Export API's as Manual Sheet</li>
+<li>Export cURL to File</li>
+</ul>
+
+<h3>CSV Export Example</h3>
+<p>The exported CSV file includes structured columns for:</p>
+<ul>
+<li>API & parameters</li>
+<li>Attack steps & observations</li>
+<li>Manual test tracking (Found/Not found)</li>
+</ul>
+
+<h3>cUrl Export Example</h3>
+<p>Requested API endpoints can also be exported in cURL format for different testing scenarios outside Burp Suite.</p>
+
+<h3>Duplicate Filtering to avoid noise</h3>
+<p>The extension is built with a feature that can filter out duplicate entries, reducing noise during the API testing and management process.</p>
+
+<h2>Usage Guide</h2>
+<h3>Adding APIs to Management</h3>
+
+<h4>From Context Menu:</h4>
+<p>Right-click on request &rarr; Extensions &rarr; Send APIs to Management Tab</p>
+
+<h4>Manual Addition:</h4>
+<p>Use the Add API button in the management tab. Enter Method, URL, and Parameters manually.</p>
+
+<h4>Filtering:</h4>
+<p>You can filter displayed APIs by applying filters based on the HTTP methods.</p>
